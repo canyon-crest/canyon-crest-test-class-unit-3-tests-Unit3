@@ -11,14 +11,14 @@ public class Unit3 {
     // Task: Return true if the number is greater than 0, false otherwise.
     public boolean isPositive(int number) {
         // TODO: Implement this method
-        return false; // Placeholder
+        return number > 0; // Placeholder
     }
 
     // 2. Method to check if a number is within a specified range
     // Task: Return true if the number is between lower and upper bounds (inclusive).
     public boolean isWithinRange(int number, int lower, int upper) {
         // TODO: Implement this method
-        return false; // Placeholder
+        return number >= lower && number <= upper; // Placeholder
     }
 
     // 3. Method to determine if a year is a leap year
